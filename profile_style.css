@@ -1,0 +1,97 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: ivory;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 15px;
+}
+
+h {
+  text-transform: uppercase;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+#navbar li {
+  display: inline;
+  float: left;
+  border-right: 2px solid black;
+}
+
+#navbar li:hover {
+  background-color: ivory;
+}
+
+#navbar li a {
+  text-align: center;
+  display: block;
+  color: black;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+#logo {
+  height: 50px;
+  float: left;
+  padding-right: 10px;
+}
+
+.card {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0);
+  transition: 0.5s;
+  float: left;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  margin: 30px;
+}
+
+.card img {
+  width: 400px;
+  margin: 10px;
+}
+
+#info {
+  color: black;
+}
+
+#info h2 {
+  margin-left: 15px;
+}
+
+#info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#info ul li {
+  padding-left: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.paragraph1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#column {
+  column-count: 2;
+}
+
+#column #p2 {
+  float:left;
+}
+
+#column #p2 {
+  float:right;
+}
+

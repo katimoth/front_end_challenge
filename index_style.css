@@ -1,0 +1,52 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-image: url("space.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(2px);
+}
+
+.credits a:link, a:visited {
+  color: white;
+}
+
+#logo {
+  width: 250px;
+  float: left;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  transform: rotate(10deg);
+}
+
+#container {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  background-color: white;
+  border-radius: 15px;
+  border: 3px solid darkblue;
+  text-align: center;
+  position: absolute;
+  top: 260px;
+  right: 420px;
+}
+
+#loginButton {
+  text-decoration: none;
+  font-size: 150%;
+}
+
+a:visited {
+  color: darkblue;
+}
+
+a:hover {
+  color: white;
+}
+
+#container:hover {
+  background-color: darkorchid;
+  box-shadow: 0 0 60px lightblue;
+}
